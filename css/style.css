@@ -49,8 +49,8 @@ html
 }
 
 .section {
-    max-width: 1280px;
-    width: 100%;
+    /*max-width: 1280px;
+    width: 100%;*/
     margin: auto;
     padding-top: 173px;
     
@@ -59,8 +59,8 @@ html
     
     display: flex;
     justify-content: space-evenly;
-    /*margin-left: 20px;*/
-    margin-right: 20px;
+    /*margin-left: 20px;
+    margin-right: 20px;*/
     
     /*align-items: center;*/
     text-align:center;

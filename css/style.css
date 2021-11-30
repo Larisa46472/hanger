@@ -16,9 +16,7 @@ html
     width: 100%;
     margin: auto;
 }
-body {
-    background-color: mediumslateblue;
-}
+
 .navigation {
     display: flex;
     align-items: flex-start;
@@ -26,8 +24,12 @@ body {
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-   
-    
+  
+}
+
+.header {
+    z-index: 9999;
+    position: relative;
 }
 .nav-item {
     width: 133px;
@@ -56,35 +58,73 @@ body {
 .block {
     
     display: flex;
-    justify-content: space-around;
-    margin-left: 20px;
+    justify-content: space-evenly;
+    /*margin-left: 20px;*/
     margin-right: 20px;
     
     /*align-items: center;*/
     text-align:center;
   
    }
+
+.section--promo {
+    position: relative;
+    margin-top: -180px; 
+    padding-top: 350px;
+    padding-bottom: 187px;
+    background: url('../img/fish.png') no-repeat center / cover;
+    color: #FFFFFF; 
+    z-index: 2;
+}
+
+
+.section--promo::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: ""; 
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+   }
+
+.block__text {
+    position: relative;
+    max-width: 60px;
+    width: 100%;
+
+}
+
 .promotext {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-
     text-orientation: mixed;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+    left: 100px;
+    
+/* or 100% */
+
+text-align: center;
+
+color: #FFFFFF;
  
 }
 .promo__main {
+    position: relative;
     max-width: 956px; 
     width: 100%;
     height: 147px;
+    position: relative;
 }
 .section__subtitle {
-    font-family: Open Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 12px;
+    line-height: 14px;
     color: #FFFFFF;
     text-transform: uppercase;
-    max-width: 956px;
-    width: 100%;
+    margin-bottom: 25px;
     
     
 }
@@ -92,37 +132,108 @@ body {
     
     font-family: Banny;
     font-size: 96px;
-    max-width: 956px;
-    width: 100%;
-    height: 147px;
-    left: 241px;
-    top: 300px;
-    color: #FFFFFF;
     text-transform: uppercase;
+    /*margin-bottom: 25px;*/
 }
 .buttons {
     display: flex;
     justify-content: center;
     margin-top: 100px;
-   
-
-    
+     
 }
 .button {
-    width: 192px;
-    height: 63px;
-    margin-left: 20px;
-    margin-right: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button__promo { 
+    padding-left: 60px;
+    padding-right: 60px;  
 }
 
+.button--primary{
+    background: #E8C300;  
+   
+}
+.button-secondary {
+    margin-left: 38px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    
+    border-radius: 5px;
+}
+.link--down {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: -10px;
+    left: 50%;
+    bottom: -280px;
+    background: #FFFFFF url('../img/erdown.svg') no-repeat center;
+    border-radius: 50%;
+}
+.link--down::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -25%;
+    left: -25%;
+    margin-top: -1px;
+    margin-left: -1px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+
+}
 .social__buttons {
     display:flex;
     flex-direction:column;
+    position: relative;
     
 }
 .social__link {
     width: 60px;
     height: 60px;
-    left: 1301px;
-    top: 340px;
+   /* left: 1301px;
+    top: 340px;*/
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.face {
+    background: url("../img/fc.svg") no-repeat center;
+}
+.twit {
+    background: url("../img/tvt.svg") no-repeat center;
+}
+.inst {
+    background: url("../img/int.svg") no-repeat center;
+
+    margin-bottom: 0;
+}
+.title {
+    position: relative;
+}
+.title::before {
+    content: "";
+    position: absolute;
+    bottom: -35px;
+    left:50% ;
+    width: 60px;
+    height: 5px;
+    background: #E8C300;
+    border-radius: 50px;
+    margin-left: -30px;
+    
+}
+.buttons {
+    margin-bottom: 58px;
 }

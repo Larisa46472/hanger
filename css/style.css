@@ -129,8 +129,6 @@ color: #FFFFFF;
     
 }
 .promo__title {
-    
-    font-family: Banny;
     font-size: 96px;
     text-transform: uppercase;
     /*margin-bottom: 25px;*/
@@ -221,6 +219,7 @@ color: #FFFFFF;
 }
 .title {
     position: relative;
+    font-family: Banny;
 }
 .title::before {
     content: "";
@@ -237,3 +236,89 @@ color: #FFFFFF;
 .buttons {
     margin-bottom: 58px;
 }
+/*втораяя страница*/
+.section--about_us {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section__text {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    /*text-align: center;*/
+}
+.block__img {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.block__img::after {
+   content: "";
+   border: 20px solid #E8C300;
+   width: 210px;
+   height: 210px;
+   position: absolute;
+   top: 50%;
+    right: 0;
+    margin-top: -125px;
+    
+}
+.section__title {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.block__text--subtitle {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 40px;
+}
+.block__text--desc {
+    margin-top: 20px;
+    line-height: 14px;
+    margin-top: 24px;
+}
+
+.section--MASTER_CHEF{
+    background: url("../img/specialty\'s-bg\ \(3\).png") no-repeat center / cover;
+    margin-top: -54px; 
+}
+
+
+.OUR__TEAM{
+    padding-top: 54px;
+    margin-left: 47%;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    margin-top: 47px;
+    margin-bottom: 47px;
+    
+}
+.img__chif {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.img__chif::after {
+    content: "";
+    border: 20px solid #E8C300;
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    top: 50%;
+    right: 350px;
+    margin-top: -125px;
+     
+ }
+ .lite {
+     color: #FFFFFF;
+ }
+
+

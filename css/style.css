@@ -381,14 +381,15 @@ color: #FFFFFF;
  }
  .text_book {
     position: absolute;
-    padding-top: 27px;
+    padding-top: 50px;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 12px;
     line-height: 12px;
     color: rgba(51, 51, 51, 0.5);
     margin-left: auto;
-    margin-left: 40%;
+    margin-left: 37%;
+    
  }
 
 

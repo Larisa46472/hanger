@@ -332,6 +332,7 @@ color: #FFFFFF;
     background: url("../img/bg2.png") no-repeat center / cover;
     margin-top: -54px; 
     position: relative;
+    padding-bottom: 100px;
 }
 .chocolate::before{
     position: absolute;

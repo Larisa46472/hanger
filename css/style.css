@@ -452,13 +452,13 @@ color: #FFFFFF;
     padding-left: 120px;
     padding-right: 120px;
     color: #FFFFFF;
-    max-width: 640;
+    max-width: 640px;
     width: 100%;
     margin-left: 100px;
 }
 .rest__img {
     display: flex;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     margin-bottom: 100px;
 
@@ -474,7 +474,7 @@ color: #FFFFFF;
     justify-content: space-between;
 }
 .telehtone{
-    max-width: 640;
+    max-width: 640px;
     width: 100%;
     display: flex;
     flex-direction:row;
@@ -516,6 +516,15 @@ color: #FFFFFF;
     padding-top: 21px;
     padding-bottom: 21px;
         
+}
+.vontacte {
+
+    max-width:565px 
+}
+
+.section_rest{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 

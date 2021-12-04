@@ -391,11 +391,15 @@ color: #FFFFFF;
     margin-left: 37%;
     
  }
+
  .section__contact {
    
-    margin-bottom: 150px;
+    margin-bottom: 100px;
       
  }
+
+
+ /*страницас контактами*/
  .contakt{
       display: flex;
       flex-direction:column;
@@ -413,7 +417,7 @@ color: #FFFFFF;
 .form_contakt{
     max-width: 1280px;
     width: 100%;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -455,6 +459,7 @@ color: #FFFFFF;
     max-width: 640px;
     width: 100%;
     margin-left: 100px;
+    cursor: pointer;
 }
 .rest__img {
     display: flex;
@@ -525,6 +530,27 @@ color: #FFFFFF;
 .section_rest{
     padding-top: 100px;
     padding-bottom: 100px;
+}
+/*карта*/
+.map {
+    margin-top: 100px;
+    
+}
+/*footer*/
+.footer {
+
+    color: #FFFFFF;
+    background-color: black;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__copirait {
+font-size: 12px;
+font-weight: 400px;
+line-height: 12px;
 }
 
 

@@ -10,7 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
-<script src="./js/main.js" defer></script>    
+<script src="./js/sendform.js" defer></script>    
+<script src="./js/scrollTo.js" defer></script>   
 </head>
 <body>
  <header class="header">
@@ -108,11 +109,11 @@
                 <input type="email" class="input__form" name="email" placeholder="Email">
                 <input type="number" class="input__form" name="number" placeholder="Phone">
                 <select name="gender" class="input__form" id="select1">
-                   <option value="">People</option> 
+                   <option value="man">People</option> 
                 </select>
-                <input type="number" class="input__form" name="days" placeholder="Date (mm/dd)">
-                <select name="gender" class="input__form" id="selectTime">
-                    <option value="">Time</option> 
+                <input type="data" class="input__form" name="days" placeholder="Date (mm/dd)">
+                <select name="time" class="input__form" id="selectTime">
+                    <option value="10:00">Time</option> 
                  </select>
                  <button class="button button--primary button__form">BOOK NOW</button>
             </form>
@@ -195,7 +196,8 @@
                       
                 </div>
                 <!-- /.telehtone -->
-                <input name="submit" type="submit" class="button__message button--primary" value="SEND MESSAGE" />
+                <button class="button__message button--primary">SEND MESSAGE</button>
+                <!--<input name="submit" type="submit" class="button__message button--primary" value="SEND MESSAGE" />-->
             </div>
             <!-- /.out -->
            

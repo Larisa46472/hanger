@@ -378,7 +378,7 @@ color: #FFFFFF;
     align-items: center;
     flex-wrap: wrap;
     max-width: 1280px;
-    widows: 100%;
+    width:  100%;
 }
 .price__pizza {
     display: flex;
@@ -655,7 +655,6 @@ color: #FFFFFF;
 }
 .footer__copirait {
 font-size: 12px;
-font-weight: 400px;
 line-height: 12px;
 }
 
